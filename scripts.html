@@ -1,0 +1,6 @@
+Add or append html using class or id in angular 2. Add this script in your component custructor
+================================================================================================
+import { Component, OnInit, Inject, ElementRef } from '@angular/core';
+ngAfterViewInit() {
+$('body .datatable-footer').find('.page-count').after('25 | '); 
+}
